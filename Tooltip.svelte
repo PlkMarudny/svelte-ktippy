@@ -19,7 +19,7 @@
     export let animation = 'fade';
     export let trigger = 'mouseenter focus';
     let tooltipNode;
-    let instance = null;
+    export let instance = null;
 
     _onDestroy(() => {
         instance.destroy();
