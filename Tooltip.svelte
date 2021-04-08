@@ -17,6 +17,7 @@
     export let onShow = undefined;
     export let onShown = undefined;
     export let animation = 'fade';
+    export let trigger = 'mouseenter focus';
     let tooltipNode;
     let instance = null;
 
@@ -35,6 +36,7 @@
             interactiveBorder: 0,
             getReferenceClientRect,
             animation,
+            trigger,
             onMount,
             onShown,
             onShow,
